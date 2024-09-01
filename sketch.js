@@ -7,9 +7,38 @@ function setup()
  {
         //color for bg
     background(220);
+    //bg circles
+     fill(200);
+    ellipse(100, 20, 80);
+
+    fill(236);
+    ellipse(390, 110, 150);
+
+    fill(225)
+    ellipse(210, 300, 100);
+
+    fill(236)
+    ellipse(256, 620, 148);
+
+    fill(200)
+    ellipse(40, 500, 120);
+
+    fill(235)
+    ellipse(550, 999, 200);
+    
+    fill(225)
+    ellipse(10, 900, 150);
+
+    fill(236);
+    ellipse(220, 990, 90);
+
+
+
+
 
     for (var i = 0; i < 11; i++) 
     {
+        
             //side-updown-size
         //black 0 
         fill('black');
@@ -33,7 +62,6 @@ function setup()
         ellipse(200, 100 + i * 100, 20 );
 
         
-        
         fill(225);
         ellipse(100, 100 + i * 100, 20 );
         fill(235);
@@ -45,13 +73,6 @@ function setup()
         fill('white');
         noStroke()
         ellipse(40, 100 + i * 100, 3 );
-
-        //ellipse(100 + i * 150, 200 + i * 160, 100 - i * 10);
-        //ellipse(100 + i * 140 - 150, 200 + i * 161, 100 - i * 15);
-        //white 225
-            // fill('white')
-            // noStroke();
-            // ellipse(450, 300, 400);
     }
     
  }
